@@ -1,0 +1,226 @@
+@import "CSS/nav.css" screen;
+
+@import "CSS/section.css" screen;
+
+@import "CSS/images.css" screen;
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Source+Serif+4&display=swap');
+
+/*Mobile screens*/
+@media (min-width:300px) {
+	* {
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+	}
+
+	html {
+		font-family: "Noto Sans";
+		font-size: 10px;
+		color: #54544d;
+		scroll-behavior: smooth;
+	}
+
+	h1 {
+		text-align: center;
+		position: sticky;
+		top: 0;
+	}
+
+	#quote {
+		margin: 20px;
+		font-size: 15px;
+		text-align: justify;
+		text-justify: auto;
+	}
+
+	#authorsName {
+		text-align: right;
+		font-size: 10px;
+	}
+
+	h2 {
+		font-size: 13px;
+	}
+
+	p, label {
+		margin: 3px;
+		text-align: justify;
+		text-justify: auto;
+		text-decoration: underline;
+		text-decoration-color: #ecf01d;
+		text-decoration-thickness: 2px;
+	}
+
+	#linkTheArtist {
+		text-decoration: underline;
+		text-decoration-color: #ecf01d;
+		text-decoration-thickness: 2px;
+	}
+
+	#linkExhibition {
+		text-decoration: underline;
+		text-decoration-color: #ecf01d;
+		text-decoration-thickness: 2px;
+	}
+
+  #linkHome {
+		text-decoration: underline;
+		text-decoration-color: #ecf01d;
+		text-decoration-thickness: 2px;
+	}
+
+  .paragraphContact {
+		margin: 0px;
+	}
+
+	footer {
+		padding: 3px;
+	}
+}
+
+/*Medium-sized screens*/
+@media (min-width:601px) {
+	* {
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+	}
+
+	html {
+		font-family: "Noto Sans";
+		font-size: 12px;
+		scroll-behavior: smooth;
+	}
+
+	h1 {
+		text-align: center;
+		position: sticky;
+		top: 0;
+	}
+
+	#quote {
+		margin: 30px;
+		font-size: 20px;
+	}
+
+	#authorsName {
+		text-align: right;
+		font-size: 15px;
+	}
+
+	h2 {
+		margin: 8px;
+		font-size: 20px;
+		text-decoration-color: #ecf01d;
+	}
+
+	p, label {
+		margin: 8px;
+		text-align: justify;
+		text-justify: auto;
+		text-decoration: underline;
+		text-decoration-color: #ecf01d;
+		text-decoration-thickness: 3px;
+	}
+
+	#linkTheArtist {
+		text-decoration: underline;
+		text-decoration-color: #ecf01d;
+		text-decoration-thickness: 3px;
+	}
+
+	#linkExhibition {
+		text-decoration: underline;
+		text-decoration-color: #ecf01d;
+		text-decoration-thickness: 3px;
+	}
+
+  #linkHome {
+		text-decoration: underline;
+		text-decoration-color: #ecf01d;
+		text-decoration-thickness: 3px;
+	}
+
+  .paragraphContact {
+		margin: 0px;
+	}
+
+	footer {
+		padding: 8px;
+	}
+}
+
+/*Large-sized screens*/
+@media (min-width:901px) {
+	* {
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+	}
+
+	html {
+		font-family: "Noto Sans";
+		font-size: 20px;
+		scroll-behavior: smooth;
+	}
+
+	h1 {
+		text-align: center;
+		position: sticky;
+		top: 0;
+	}
+
+	#quote {
+		margin: 40px;
+		font-size: 30px;
+	}
+
+	#authorsName {
+		text-align: right;
+		font-size: 20px;
+	}
+
+	h2 {
+		margin: 10px;
+		font-size: 30px;
+		text-decoration: underline;
+		text-decoration-color: #ecf01d;
+		text-decoration-thickness: 4px;
+	}
+
+	p, label {
+		margin: 10px;
+		text-align: justify;
+		text-justify: auto;
+		text-decoration: underline;
+		text-decoration-color: #ecf01d;
+		text-decoration-thickness: 4px;
+	}
+
+	#linkTheArtist {
+		text-decoration: underline;
+		text-decoration-color: #ecf01d;
+		text-decoration-thickness: 4px;
+	}
+
+	#linkExhibition {
+		text-decoration: underline;
+		text-decoration-color: #ecf01d;
+		text-decoration-thickness: 4px;
+	}
+
+	#linkHome {
+		text-decoration: underline;
+		text-decoration-color: #ecf01d;
+		text-decoration-thickness: 4px;
+	}
+
+	.paragraphContact {
+		margin: 0px;
+	}
+
+	footer {
+		padding: 10px;
+	}
+}

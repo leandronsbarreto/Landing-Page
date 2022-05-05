@@ -1,0 +1,124 @@
+/*Mobile Screens*/
+@media (min-width: 300px) {
+	#homePicture {
+		width: 240px;
+		height: 110px;
+		margin: 6px;
+		border-style: solid;
+		border-width: 2px;
+	}
+
+	#theArtistPicture {
+		width: 155px;
+		height: 200px;
+		margin: 6px;
+		border-style: solid;
+		border-width: 2px;
+	}
+
+	#exhibitionPicture {
+		width: 250px;
+		height: 50px;
+		border-style: solid;
+		margin: 6px;
+		border-width: 2px;
+	}
+
+	#facebook {
+		width: 10px;
+		height: 10px;
+	}
+
+	#instagram {
+		width: 10px;
+		height: 10px;
+	}
+
+	#twitter {
+		width: 10px;
+		height: 10px;
+	}
+}
+/*Medium-sized screens*/
+@media (min-width: 601px) {
+	#homePicture {
+		width: 450px;
+		height: 215px;
+		margin: 8px;
+		border-style: solid;
+		border-width: 2px;
+	}
+
+	#theArtistPicture {
+		width: 255px;
+		height: 300px;
+		margin: 8px;
+		border-style: solid;
+		border-width: 2px;
+	}
+
+	#exhibitionPicture {
+		width: 400px;
+		height: 100px;
+		border-style: solid;
+		margin: 8px;
+		border-width: 2px;
+	}
+
+	#facebook {
+		width: 20px;
+		height: 20px;
+	}
+
+	#instagram {
+		width: 20px;
+		height: 20px;
+	}
+
+	#twitter {
+		width: 20px;
+		height: 20px;
+	}
+}
+
+/*Large-sized screens*/
+@media (min-width: 901px) {
+	#homePicture {
+		width: 800px;
+		height: 310px;
+		margin: 10px;
+		border-style: solid;
+		border-width: 2px;
+	}
+
+	#theArtistPicture {
+		width: 355px;
+		height: 400px;
+		margin: 10px;
+		border-style: solid;
+		border-width: 2px;
+	}
+
+	#exhibitionPicture {
+		width: 600px;
+		height: 300px;
+		border-style: solid;
+		margin: 10px;
+		border-width: 2px;
+	}
+
+	#facebook {
+		width: 30px;
+		height: 30px;
+	}
+
+	#instagram {
+		width: 30px;
+		height: 30px;
+	}
+
+	#twitter {
+		width: 30px;
+		height: 30px;
+	}
+}
